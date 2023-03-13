@@ -8,17 +8,17 @@
       </div>
 
       <h2 class="profile__name">Hernán Estupiñán</h2>
-      <h3 class="profile__profession">Marketing Director</h3>
+      <h3 class="profile__profession">Computer Engineer</h3>
 
       <div class="profile__social">
-        <a href="https://instagram.com/abouthernan" target="_blank" class="profile__social-link">
-          <i class="ri-instagram-line" />
-        </a>
         <a href="https://linkedin.com/abouthernan" target="_blank" class="profile__social-link">
           <i class="ri-linkedin-box-line" />
         </a>
         <a href="https://twitter.com/abouthernan" target="_blank" class="profile__social-link">
           <i class="ri-twitter-line" />
+        </a>
+        <a href="https://instagram.com/abouthernan" target="_blank" class="profile__social-link">
+          <i class="ri-instagram-line" />
         </a>
       </div>
     </div>
@@ -30,21 +30,6 @@
       <p>🎸 Lover of Travel, Music, Sports, Business</p>
       <p>🔭 Exploring #NoCode #OpenAI.</p>
     </div> 
-
-    <div class="profile__buttons">
-      <a href="https://api.whatsapp.com/send?phone=573133846633&text=Hola,%20buen%20d%C3%ADa.%20%C2%BFC%C3%B3mo%20est%C3%A1s?" class="button">
-        Contact me <i class="ri-whatsapp-line" />
-      </a>
-
-      <div class="profile__buttons-small">
-        <a href="https://github.com/abouthernan" class="button button__small">
-          <i class="ri-github-line" />
-        </a>
-        <a href="#" class="button button__small">
-          <i class="ri-messenger-line" />
-        </a>
-      </div>
-    </div>
 
     <div class="profile__description-like">
         <p>I am an entrepreneur. Software Engineer and marketing professional with 10+ years of experience developing and executing successful marketing strategies for B2B and B2C companies. My expertise includes lead generation, brand management, and product marketing. I am passionate about understanding customer needs and developing targeted campaigns that drive business growth.
@@ -132,7 +117,7 @@ In addition to my marketing expertise, I am also skilled in project management, 
 
   .profile__description {
     text-align: center;
-    margin: 0 auto 2rem;
+    margin-top: 1rem;
   }
 
   .profile__description-like {
@@ -140,30 +125,12 @@ In addition to my marketing expertise, I am also skilled in project management, 
     white-space: pre-wrap;
     max-width: 75ch;
     margin: 0 auto;
+    text-align: center;
   }
 
   .profile__description a {
     color: currentColor;
     font-weight: 600;
-  }
-
-  .profile__description div {
-    margin-top: 1.5rem;
-  }
-
-  .profile__buttons,
-  .profile__buttons-small {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .profile__buttons {
-    column-gap: 1rem;
-  }
-
-  .profile__buttons-small {
-    column-gap: .25rem;
   }
 
   .button {
