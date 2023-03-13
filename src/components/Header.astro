@@ -10,7 +10,7 @@
       <h2 class="profile__name">Hernán Estupiñán</h2>
       <h3 class="profile__profession">Marketing Director</h3>
 
-      <ul class="profile__social">
+      <div class="profile__social">
         <a href="https://instagram.com/abouthernan" target="_blank" class="profile__social-link">
           <i class="ri-instagram-line" />
         </a>
@@ -20,17 +20,16 @@
         <a href="https://twitter.com/abouthernan" target="_blank" class="profile__social-link">
           <i class="ri-twitter-line" />
         </a>
-      </ul>
+      </div>
     </div>
 
     <div class="profile__description">
-      <p>Founder <a href="https://hazlolatam.com/" target="_blank">hazlolatam.com</a></p>
-      <p>Marketing Manager <a href="https://vehement.co/" target="_blank">vehement.co</a></p>
-
-      <div class="profile__description-like">
-        <p>Product Developer  •  I love Code & Travel</p>
-      </div>
-    </div>
+      <p>👊🏽 Founder of <a href="https://hazlolatam.com/" target="_blank">hazlolatam.com</a></p>
+      <p>🦊 Marketing Manager <a href="https://vehement.co/" target="_blank">vehement.co</a></p>
+      <p>🧑🏽‍💻 Computer Engineer</p>
+      <p>🎸 Lover of Travel, Music, Sports, Business</p>
+      <p>🔭 Exploring #NoCode #OpenAI.</p>
+    </div> 
 
     <div class="profile__buttons">
       <a href="https://api.whatsapp.com/send?phone=573133846633&text=Hola,%20buen%20d%C3%ADa.%20%C2%BFC%C3%B3mo%20est%C3%A1s?" class="button">
@@ -46,6 +45,14 @@
         </a>
       </div>
     </div>
+
+    <div class="profile__description-like">
+        <p>I am an entrepreneur. Software Engineer and marketing professional with 10+ years of experience developing and executing successful marketing strategies for B2B and B2C companies. My expertise includes lead generation, brand management, and product marketing. I am passionate about understanding customer needs and developing targeted campaigns that drive business growth.
+
+Currently, I am a Marketing Manager at Vehement Agency, where I oversee a team of marketers in developing and executing integrated marketing campaigns to increase brand awareness and generate new leads. I managed the launch of multiple successful products that drove significant revenue growth.
+
+In addition to my marketing expertise, I am also skilled in project management, team leadership, and data analysis. I have a track record of delivering projects on time and under budget, and I enjoy mentoring and coaching team members to help them reach their full potential.</p>
+      </div>
   </div>
 </header>
 
@@ -108,18 +115,31 @@
   }
 
   .profile__social-link {
-    font-size: 1.25rem;
+    font-size: 1.85rem;
     color: var(--title-color);
     transition: .3s;
+    border: 1px solid var(--first-color);
+    border-radius: 50%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .profile__social-link:hover {
-    color: var(--first-color);
+    background-color: var(--first-color);
   }
 
   .profile__description {
     text-align: center;
     margin: 0 auto 2rem;
+  }
+
+  .profile__description-like {
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    max-width: 75ch;
+    margin: 0 auto;
   }
 
   .profile__description a {
