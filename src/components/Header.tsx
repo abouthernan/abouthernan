@@ -14,7 +14,7 @@ export function Header() {
             <a href="https://twitter.com/abouthernan" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
               <Twitter size={20} />
             </a>
-            <a href="https://www.linkedin.com/in/hernanestupinan/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+            <a href="https://www.linkedin.com/in/abouthernan/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
               <Linkedin size={20} />
             </a>
             <a href="mailto:h@vehement.com" className="text-gray-400 hover:text-white transition-colors">
