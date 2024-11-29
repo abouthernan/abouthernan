@@ -7,7 +7,7 @@ export function Hero() {
       <div className="text-center">
         <div className="relative inline-block">
           <img
-            src="/hernan-estupiñan-web.JPEG"
+            src="../../hernan-estupiñan-web.JPEG"
             alt="Hernán Estupiñan"
             className="w-32 h-32 rounded-full border-4 border-purple-500 mb-6"
           />
@@ -39,7 +39,7 @@ Currently I am working on Cuantto. Qantto is the first Quoting-Automation platfo
             Ver Proyectos
           </a>
           <a 
-            href="https://drive.google.com/file/d/1VxqfNu4tAFXEGzPAFPkCJZGEVEL7biVo/view"
+            href="https://drive.google.com"
             target="_blank"
             rel="noopener noreferrer"
             className="border border-purple-500 text-purple-500 hover:bg-purple-500/10 px-6 py-2 rounded-full transition-colors"
