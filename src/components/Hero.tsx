@@ -7,7 +7,7 @@ export function Hero() {
       <div className="text-center">
         <div className="relative inline-block">
           <img
-            src="/hernan-estupiñan-web.jpeg"
+            src="/hernan.jpeg"
             alt="Hernán Estupiñan"
             className="w-32 h-32 rounded-full border-4 border-purple-500 mb-6"
           />
