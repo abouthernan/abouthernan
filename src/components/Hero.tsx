@@ -20,7 +20,22 @@ export function Hero() {
           <Code2 size={20} className="text-purple-500" />
           <p className="text-xl text-gray-300">Frontend Developer</p>
         </div>
-        <p className="text-gray-400 max-w-2xl mx-auto mb-8">👊🏽 Founder at http://hazlolatam.com 👨🏽‍💻 Founder at http://cuantto.io 🎸Lover of Travel, Music, Sports, Business 🔭Exploring #NoCode #OpenAI.</p>
+        <p className="text-gray-400 max-w-2xl mx-auto mb-8">
+          <a href="https://hazlolatam.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:underline">
+            👊🏽 Founder at hazlolatam.com
+          </a>
+        </p>
+        <p className="text-gray-400 max-w-2xl mx-auto mb-8">
+          <a href="https://vehement.co" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:underline">
+          🦊 Founder at vehement.co
+          </a>
+        </p>
+        <p className="text-gray-400 max-w-2xl mx-auto mb-8">
+          <a href="https://cuantto.io" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:underline">
+            👨🏽‍💻 Founder at cuantto.io
+          </a>
+        </p>
+        <p className="text-gray-400 max-w-2xl mx-auto mb-8">🎸Lover of Travel, Music, Sports, Business 🔭Exploring #NoCode #OpenAI.</p>
         <p className="text-gray-400 max-w-2xl mx-auto mb-8">I am a Software Engineer and marketing professional with 10+ years of experience developing and executing successful marketing strategies for B2B and B2C companies. My expertise includes lead generation, brand management, and product marketing. </p>
 <p className="text-gray-400 max-w-2xl mx-auto mb-8">I am passionate about understanding customer needs and developing targeted campaigns and products that drive business growth.</p>
 <p className="text-gray-400 max-w-2xl mx-auto mb-8">In addition to my marketing expertise, I am also skilled in project management, team leadership, and data analysis. I have a track record of delivering projects on time and under budget, and I enjoy mentoring and coaching team members to help them reach their full potential.</p>
