@@ -20,21 +20,17 @@ export function Hero() {
           <Code2 size={20} className="text-purple-500" />
           <p className="text-xl text-gray-300">Frontend Developer</p>
         </div>
-        <p className="text-gray-400 max-w-2xl mx-auto mb-8">
-          <a href="https://hazlolatam.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:underline">
-            👊🏽 Founder at hazlolatam.com
-          </a>
-        </p>
-        <p className="text-gray-400 max-w-2xl mx-auto mb-8">
-          <a href="https://vehement.co" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:underline">
-          🦊 Founder at vehement.co
-          </a>
-        </p>
-        <p className="text-gray-400 max-w-2xl mx-auto mb-8">
-          <a href="https://cuantto.io" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:underline">
-            👨🏽‍💻 Founder at cuantto.io
-          </a>
-        </p>
+        <div className="text-gray-400 max-w-2xl mx-auto mb-8 flex flex-col gap-2">
+          <p className="text-gray-400 max-w-2xl mx-auto mb-8">
+            👊🏽 Founder at <a href="https://hazlolatam.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:underline">hazlolatam.com</a>
+          </p>
+          <p className="text-gray-400 max-w-2xl mx-auto mb-8">
+            🦊 Founder at <a href="https://vehement.co" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:underline">vehement.co</a>
+          </p>
+          <p className="text-gray-400 max-w-2xl mx-auto mb-8">
+            👨🏽‍💻 Founder at <a href="https://cuantto.io" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:underline">cuantto.io</a>
+          </p>
+        </div>
         <p className="text-gray-400 max-w-2xl mx-auto mb-8">🎸Lover of Travel, Music, Sports, Business 🔭Exploring #NoCode #OpenAI.</p>
         <p className="text-gray-400 max-w-2xl mx-auto mb-8">I am a Software Engineer and marketing professional with 10+ years of experience developing and executing successful marketing strategies for B2B and B2C companies. My expertise includes lead generation, brand management, and product marketing. </p>
 <p className="text-gray-400 max-w-2xl mx-auto mb-8">I am passionate about understanding customer needs and developing targeted campaigns and products that drive business growth.</p>
