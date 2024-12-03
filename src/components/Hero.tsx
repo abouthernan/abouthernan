@@ -20,14 +20,14 @@ export function Hero() {
           <Code2 size={20} className="text-purple-500" />
           <p className="text-xl text-gray-300">Frontend Developer</p>
         </div>
-        <div className="text-gray-400 max-w-2xl mx-auto mb-8 flex flex-col gap-2">
-          <p className="text-gray-400 max-w-2xl mx-auto mb-8">
+        <div className="text-gray-400 max-w-2xl mx-auto mb-8 flex flex-col gap-0">
+          <p className="mb-0">
             👊🏽 Founder at <a href="https://hazlolatam.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:underline">hazlolatam.com</a>
           </p>
-          <p className="text-gray-400 max-w-2xl mx-auto mb-8">
+          <p className="mb-0">
             🦊 Founder at <a href="https://vehement.co" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:underline">vehement.co</a>
           </p>
-          <p className="text-gray-400 max-w-2xl mx-auto mb-8">
+          <p className="mb-0">
             👨🏽‍💻 Founder at <a href="https://cuantto.io" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:underline">cuantto.io</a>
           </p>
         </div>
